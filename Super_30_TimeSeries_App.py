@@ -10,7 +10,7 @@ from io import StringIO
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Air Passengers Forecasting",
+    page_title="PragyanAI - Air Passengers Forecasting(TS)",
     page_icon="✈️",
     layout="wide"
 )
@@ -46,7 +46,7 @@ def test_stationarity(timeseries):
 
 
 # --- Main Application ---
-st.title("✈️ Air Passengers Time Series Forecasting")
+st.title("✈️ PragyanAI - Air Passengers Time Series Forecasting(TS)")
 st.write("""
 This interactive web app performs a time series analysis on the classic Air Passengers dataset.
 You can upload your own data (in the same format) or use the default dataset to see the analysis and forecast.
